@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 
 const ProductsContainer = ({ products, addToCart }) => {
   return (
-    <div className="product-container">
+    <div className="ProductsContainer">
       {products.map((product, index) => (
         <ProductCard key={index} product={product} addToCart={addToCart} />
       ))}

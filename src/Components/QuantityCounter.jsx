@@ -6,7 +6,7 @@ const QuantityCounter = ({ quantity, setQuantity, min }) => {
   const decrement = () => setQuantity(Math.max(min, quantity - 1));
 
   return (
-    <div className="quantity-counter">
+    <div>
       <button onClick={decrement}>-</button>
       <span>{quantity}</span>
       <button onClick={increment}>+</button>
